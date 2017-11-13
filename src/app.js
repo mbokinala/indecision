@@ -1,3 +1,5 @@
+// stateless functional component
+
 class IndecisionApp extends React.Component {
 	constructor(props) {
 		super(props);
@@ -135,5 +137,7 @@ class AddOption extends React.Component {
 		);
 	}
 }
+
+const 
 
 ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
