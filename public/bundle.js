@@ -65,43 +65,9 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__person_js__ = __webpack_require__(2);
-// // import './utils.js';
-// import subtract, {square, add } from './utils.js';
-
-// console.log('app.js is running');
-// console.log('4 ^ 4 = ', square(4));
-// console.log('100 + 23 = ', add(100, 3));
-// console.log('100 - 81', subtract(100, 81));
-
-
-
-console.log('isAdult(10)', __WEBPACK_IMPORTED_MODULE_0__person_js__["c" /* isAdult */](10));
-console.log('isAdult(30)', __WEBPACK_IMPORTED_MODULE_0__person_js__["c" /* isAdult */](30));
-console.log('canDrink(18)', __WEBPACK_IMPORTED_MODULE_0__person_js__["a" /* canDrink */](18));
-console.log('canDrink(22)', __WEBPACK_IMPORTED_MODULE_0__person_js__["a" /* canDrink */](22));
-console.log('isSenior(10)', __WEBPACK_IMPORTED_MODULE_0__person_js__["b" /* default */](10));
-console.log('isSenior(99)', __WEBPACK_IMPORTED_MODULE_0__person_js__["b" /* default */](65));
-
-/***/ }),
-/* 1 */,
-/* 2 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-const isAdult = (age) => age >= 18;
-/* harmony export (immutable) */ __webpack_exports__["c"] = isAdult;
-
-
-const canDrink = (age) => age >= 21;
-/* harmony export (immutable) */ __webpack_exports__["a"] = canDrink;
-
-
-/* harmony default export */ __webpack_exports__["b"] = ((age) => age >= 65);
+throw new Error("Module parse failed: /Users/ajonnakuti/Desktop/react-course-projects/indecision-app/src/app.js Unexpected token (2:18)\nYou may need an appropriate loader to handle this file type.\n| // install --> import --> use\n| import React from react;\n| import ReactDOM from react-dom;\n| console.log(React);");
 
 /***/ })
 /******/ ]);
