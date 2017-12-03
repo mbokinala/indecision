@@ -113,6 +113,7 @@ class IndecisionApp extends React.Component {
 	return (
 	  <div>
 		<button onClick={props.handleDeleteOptions}>Remove All</button>
+		{props.options.length === 0 && <div> <em>Please add an option to get started</em></div>}
 		{
 		  props.options.map((option) => (
 			<Option
@@ -154,10 +155,12 @@ class IndecisionApp extends React.Component {
   
 	  const option = e.target.elements.option.value.trim();
 	  const error = this.props.handleAddOption(option);
-
-	  e.target.elements.option.value='';
   
 	  this.setState(() => ({ error }));
+
+	  if(!error) {
+		e.target.elements.option.value='';
+	  }
 	}
 	render() {
 	  return (
