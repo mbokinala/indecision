@@ -1,6 +1,5 @@
-// install --> import --> use
-import React from react;
-import ReactDOM from react-dom;
-console.log(React);
-const template = <p>THIS IS JSX FROM WEBPACK</p>;
-ReactDOM.render(template, document.getElementById('app'));
+import React from "react";
+import ReactDOM from "react-dom";
+import IndecisionApp from './components/IndecisionApp';
+
+ReactDOM.render(<IndecisionApp />, document.getElementById("app"));
