@@ -67,7 +67,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-throw new Error("Module parse failed: /Users/ajonnakuti/Desktop/react-course-projects/indecision-app/src/app.js Unexpected token (2:18)\nYou may need an appropriate loader to handle this file type.\n| // install --> import --> use\n| import React from react;\n| import ReactDOM from react-dom;\n| console.log(React);");
+throw new Error("Module build failed: SyntaxError: Unexpected token (2:18)\n\n\u001b[0m \u001b[90m 1 | \u001b[39m\u001b[90m// install --> import --> use\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[33mReact\u001b[39m from react\u001b[33m;\u001b[39m\n \u001b[90m   | \u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 3 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[33mReactDOM\u001b[39m from react\u001b[33m-\u001b[39mdom\u001b[33m;\u001b[39m\n \u001b[90m 4 | \u001b[39mconsole\u001b[33m.\u001b[39mlog(\u001b[33mReact\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 5 | \u001b[39m\u001b[36mconst\u001b[39m template \u001b[33m=\u001b[39m \u001b[33m<\u001b[39m\u001b[33mp\u001b[39m\u001b[33m>\u001b[39m\u001b[33mTHIS\u001b[39m \u001b[33mIS\u001b[39m \u001b[33mJSX\u001b[39m \u001b[33mFROM\u001b[39m \u001b[33mWEBPACK\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mp\u001b[39m\u001b[33m>\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n");
 
 /***/ })
 /******/ ]);
