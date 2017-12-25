@@ -1,0 +1,13 @@
+#app {
+    margin: auto;
+    width: 75%;
+}
+
+h1, h2 {
+    text-align: center
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
