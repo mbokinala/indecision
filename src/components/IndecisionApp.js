@@ -101,6 +101,7 @@ export default class IndecisionApp extends React.Component {
             selectedOption={this.state.selectedOption}
             handleClearSelectedOption={this.handleClearSelectedOption}
           />
+        <footer>&copy; 2017 Manav Bokinala</footer>
       </div>
     );
   }
